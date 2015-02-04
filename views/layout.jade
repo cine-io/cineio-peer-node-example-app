@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title cine.io Peer Example
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='/main.css')
+    script(src='//code.jquery.com/jquery-2.1.1.min.js')
+    script(src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js')
+
+    //- cine.io peer JavaScript
+    script(src='//cdn.cine.io/cineio-peer.js')
+
+    script(type='text/javascript').
+      CineIOPeer.init("#{publicKey}")
+
+    //- this application's javascript
+    script(src='/app.js')
+
+  body
+    header
+      h1 Cine.io example app - #{title}
+    hr
+    .container
+      block content
+    hr
+    footer
+      p An app built with #[a(href='https://www.cine.io/products/peer') cine.io] peer api
