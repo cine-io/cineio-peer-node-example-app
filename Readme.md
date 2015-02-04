@@ -2,12 +2,6 @@
 
 This is an example application in Node.js showing the capabilities of [cine.io peer][cineio-peer]. It uses the [cine.io Peer JS SDK][cineio-peer-js-sdk] and the [cine.io Node.js package][cineio-node].
 
-## Try it on Heroku
-
-Click the button below to magically deploy up this example to your Heroku account. A [cine.io][cineio] plan will automatically be included for free.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/cine-io/cineio-node-example-app)
-
 ## Run Locally
 
 1. Sign up for your own API key at [cine.io][cineio].
@@ -27,6 +21,12 @@ Click the button below to magically deploy up this example to your Heroku accoun
     ```term
     $ node index.js
     ```
+
+## Try it on Heroku
+
+Click the button below to magically deploy up this example to your Heroku account. A [cine.io][cineio] plan will automatically be included for free.
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/cine-io/cineio-peer-node-example-app)
 
 <!-- external links -->
 [cineio]:https://www.cine.io/
