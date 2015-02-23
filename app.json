@@ -1,0 +1,16 @@
+{
+    "name": "Cine.io Node Example",
+    "description": "A simple app in Node.js demonstrating the video chat capabilities of cine.io",
+    "website": "https://www.cine.io/",
+    "repository": "https://github.com/cine-io/cineio-peer-node-example-app",
+    "logo": "https://gs1.wac.edgecastcdn.net/8019B6/data.tumblr.com/avatar_fc9ce0ca2eae_128.png",
+    "keywords": [
+        "live-streaming",
+        "webrtc",
+        "video",
+        "peer-to-peer"
+    ],
+    "addons": [
+        "cine"
+    ]
+}
