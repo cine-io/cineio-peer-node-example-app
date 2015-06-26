@@ -1,5 +1,5 @@
 {
-    "name": "Cine.io Node Example",
+    "name": "Cine.io Peer Node Example",
     "description": "A simple app in Node.js demonstrating the video chat capabilities of cine.io",
     "website": "https://www.cine.io/",
     "repository": "https://github.com/cine-io/cineio-peer-node-example-app",
